@@ -21,7 +21,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
+    link.download = "Nathan-Wang-Resume.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
@@ -51,7 +51,9 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
         >
           <div className="contentContainer">
             <h4>Nice to meet you</h4>
-            <h5>I'm a Software Engineering Student that likes building cool things</h5>
+            <p style={{ color: '#fff' }}>
+            I'm a Software Engineering Student that likes building cool things. I'm excited in learning new technologies. In my free time, I invest, workout, and read about tech.
+            </p>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>

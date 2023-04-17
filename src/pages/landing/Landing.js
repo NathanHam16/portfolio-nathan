@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import landingImage from "../../images/me.svg";
 import SocialIcons from "../../components/SocialIcons";
+import Contact from '../contact/Contact';
+import About from '../about/About';
+import Portfolio from '../portfolio/Portfolio';
 
 const Landing = ({ name }) => {
   const styles = {
@@ -39,7 +42,7 @@ const Landing = ({ name }) => {
   };
 
   return (
-    <section className="landing" style={styles.landing}>
+    <><section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
@@ -55,8 +58,7 @@ const Landing = ({ name }) => {
                 .typeString("Student")
                 .pauseFor(1500)
                 .start();
-            }}
-          />
+            } } />
         </div>
       </div>
       <div className="image-container">
@@ -67,11 +69,24 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Nathan Wang"
-        />
+          alt="Nathan Wang" />
       </div>
       <SocialIcons />
-    </section>
+      </section>
+        <About 
+          name="Nathan Wang" 
+          email="nathan123wang@gmail.com" 
+          location="Brisbane, Australia" 
+          availability="Looking for Internship" 
+        />
+        <Portfolio />
+        <Contact 
+          name="Nathan Wang" 
+          email="nathan123wang@gmail.com" 
+          location="Brisbane, Australia" 
+          availability="Looking for Internship"        
+        />
+      </>
   );
 };
 
