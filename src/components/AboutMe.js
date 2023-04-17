@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/aboutme.jpg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
@@ -52,7 +52,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           <div className="contentContainer">
             <h4>Nice to meet you</h4>
             <p style={{ color: '#fff' }}>
-            I'm a Software Engineering Student that likes building cool things. I'm excited in learning new technologies. In my free time, I invest, workout, and read about tech.
+            I'm a Software Engineering Student that likes building cool things. I'm excited in learning new technologies and in my free time, I invest, workout, and watch tech videos. I also love travelling and taking pictures!
             </p>
             <div className="contentDescription">
               <p>{brand}</p>

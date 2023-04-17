@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import ReactCursor from "./components/Cursor"
 
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
       <ReactCursor />
-      <Header />
       <AnimatedRoutes personalDetails={personalDetails} />
     </>
   );
