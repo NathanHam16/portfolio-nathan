@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import landingImage from "../../images/me.svg";
-import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
 const Landing = ({ name }) => {
@@ -41,7 +40,6 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
-      <Draw />
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
@@ -54,10 +52,8 @@ const Landing = ({ name }) => {
                 .typeString("I'm a Developer")
                 .pauseFor(1500)
                 .deleteChars(9)
-                .typeString("Designer")
+                .typeString("Student")
                 .pauseFor(1500)
-                .deleteAll()
-                .typeString("Bringing your ideas to life")
                 .start();
             }}
           />
