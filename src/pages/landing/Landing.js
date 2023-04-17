@@ -1,10 +1,9 @@
-import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.svg";
 import SocialIcons from "../../components/SocialIcons";
 import Contact from '../contact/Contact';
 import About from '../about/About';
 import Portfolio from '../portfolio/Portfolio';
+import Queenstown from '../../images/'
 
 const Landing = ({ name }) => {
   const styles = {
@@ -13,14 +12,6 @@ const Landing = ({ name }) => {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-    },
-
-    landingImage: {
-      position: "absolute",
-      bottom: "0",
-      opacity: "0.3",
-      mixBlendMode: "lighten",
-      height: "80%",
     },
 
     textContainer: {
@@ -62,14 +53,6 @@ const Landing = ({ name }) => {
         </div>
       </div>
       <div className="image-container">
-        <motion.img
-          className="landingImage"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Nathan Wang" />
       </div>
       <SocialIcons />
       </section>
