@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2de4a229.css",
+    "main.js": "/static/js/main.7eff1262.js",
+    "static/media/queenstown.JPG": "/static/media/queenstown.c07fae9e3a50656fdd06.JPG",
+    "static/media/Nathan-Wang.pdf": "/static/media/Nathan-Wang.f40ce2df1195fb0d8da6.pdf",
+    "static/media/aboutme.jpg": "/static/media/aboutme.7df9eaef44d77e07fca2.jpg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
+    "main.2de4a229.css.map": "/static/css/main.2de4a229.css.map",
+    "main.7eff1262.js.map": "/static/js/main.7eff1262.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2de4a229.css",
+    "static/js/main.7eff1262.js"
+  ]
+}
