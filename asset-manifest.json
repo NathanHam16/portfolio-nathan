@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio-Nathan/static/css/main.2de4a229.css",
-    "main.js": "/Portfolio-Nathan/static/js/main.9aaf0681.js",
+    "main.js": "/Portfolio-Nathan/static/js/main.59e8c43b.js",
     "static/media/queenstown.JPG": "/Portfolio-Nathan/static/media/queenstown.c07fae9e3a50656fdd06.JPG",
     "static/media/Nathan-Wang.pdf": "/Portfolio-Nathan/static/media/Nathan-Wang.f40ce2df1195fb0d8da6.pdf",
     "static/media/aboutme.jpg": "/Portfolio-Nathan/static/media/aboutme.7df9eaef44d77e07fca2.jpg",
     "index.html": "/Portfolio-Nathan/index.html",
     "static/media/close.svg": "/Portfolio-Nathan/static/media/close.a591c5268e7cbcfeb569c6afea5745fc.svg",
     "main.2de4a229.css.map": "/Portfolio-Nathan/static/css/main.2de4a229.css.map",
-    "main.9aaf0681.js.map": "/Portfolio-Nathan/static/js/main.9aaf0681.js.map"
+    "main.59e8c43b.js.map": "/Portfolio-Nathan/static/js/main.59e8c43b.js.map"
   },
   "entrypoints": [
     "static/css/main.2de4a229.css",
-    "static/js/main.9aaf0681.js"
+    "static/js/main.59e8c43b.js"
   ]
 }
