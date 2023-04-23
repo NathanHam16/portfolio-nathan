@@ -1,5 +1,6 @@
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import ReactCursor from "./components/Cursor"
+import Loader from './components/Loader'; 
 
 function App() {
   const personalDetails = {
