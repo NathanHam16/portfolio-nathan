@@ -8,8 +8,24 @@
     justify-content: center;
     align-items: center;
     background: #1d1f27;
+    opacity: 1;
+    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.8s ease-out;
   }
   
+  .loading-screen.hidden {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  
+  .home-page {
+    opacity: 0;
+    transition: opacity 0.8s ease-out;
+    /* add any other transition properties here */
+  }
+  
+  .home-page.visible {
+    opacity: 1;
+  }
   .loading-icon {
     position: relative;
     width: 200px;
@@ -41,19 +57,9 @@
       transform: rotate(360deg);
     }
   }
-
-  .home-page {
-    position: relative;
-    z-index: -1;
-    transform: translateY(100%);
+  .loading-screen--hidden {
+    transform: translateY(-100%);
     opacity: 0;
-    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.8s ease-out;
   }
-  
-  .home-page.show {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-  
-  
   
