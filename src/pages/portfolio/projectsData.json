@@ -5,7 +5,7 @@
     "technologies": "ReactJS | Vite | Netlify",
     "description": " Website for Coding club Code Network using React, Vite, & Netlify. End-to-End Testing with Deploy Previews for PR's is used with Netlify",
     "github": "https://github.com/codenetwork/viteCN",
-    "deployed": "https://codenetwork.co/",
+    "deployed": null,
     "bgcolor": "#42e34a",
     "id": "2"
   },
@@ -35,7 +35,7 @@
     "image": "./projectImages/planner.png",
     "technologies": "Spring Boot | H2 | ReactJS | Github Actions",
     "description": "2D Map provides an interactive platform in Brisbane City with accommodation, transportation, and disability accessibility data for 10-20 destinations. Users input location data to calculate a sustainability rating and receive a report on their carbon footprint. The algorithm generates alternative recommendations within a specified radius to reduce the trip's carbon footprint. Users can also view 360-degree images of locations.",
-    "github": "Private repository",
+    "github": null,
     "deployed": null,
     "bgcolor": "#3e67ff",
     "id": "6"
