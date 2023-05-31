@@ -19,18 +19,18 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
-    icon: 'twitter',
+    label: 'Github',
+    url: 'https://github.com/NathanHam16',
+    icon: 'github',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
+    label: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/nathan-wang-b73966235/',
     icon: 'figma',
   },
   {
-    label: 'Github',
-    url: 'https://github.com/HamishMW',
-    icon: 'github',
+    label: 'Leetcode',
+    url: 'https://leetcode.com/Nathanwang2004/',
+    icon: 'twitter',
   },
 ];
