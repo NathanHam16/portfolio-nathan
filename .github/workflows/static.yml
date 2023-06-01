@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Copy index.html to 404.html
-        run: cp ./dist/index.html ./dist/404.html
+        run: cp ./.storybook/manager-head.html ./.storybook/404.html
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
