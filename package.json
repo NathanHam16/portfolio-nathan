@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://hamishw.com",
+  "homepage": "https://nathanham16.github.io/porfolio-nathan/",
   "description": "Portfolio site for Nathan Wang",
-  "repository": "https://github.com/NathanHam16/Portfolio-Nathan",
+  "repository": "https://github.com/NathanHam16/portfolio-nathan",
   "author": "Nathan Wang",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
@@ -19,6 +19,7 @@
     "eslint": "^8.41.0",
     "eslint-config-next": "^12.2.5",
     "fs-extra": "^10.1.0",
+    "gh-pages": "^5.0.0",
     "globby": "^13.1.2",
     "postcss": "^8.4.16",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -49,7 +50,7 @@
     "dev": "next dev",
     "build": "next build && next export -o build/",
     "build:storybook": "build-storybook -o build-storybook && node scripts/draco-storybook",
-    "deploy": "aws s3 sync --delete build/ s3://hamish-portfolio-site",
+    "deploy": "gh-pages -d build",
     "deploy:storybook": "aws s3 sync --delete build-storybook s3://hamish-portfolio-storybook",
     "deploy:functions": "cd functions && npm run deploy",
     "start": "next start",
