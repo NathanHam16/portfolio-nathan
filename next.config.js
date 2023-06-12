@@ -1,6 +1,4 @@
 module.exports = {
-  assetPrefix: process.env.BASE_PATH || '',
-  basePath: process.env.BASE_PATH || '',
   reactStrictMode: true,
   trailingSlash: true,
   pageExtensions: ['page.js', 'api.js'],
