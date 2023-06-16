@@ -12,15 +12,15 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://nathanham16.github.io/portfolio-nathan//projects/slice/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://nathanham16.github.io/portfolio-nathan//projects/smart-sparrow/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://nathanham16.github.io/portfolio-nathan//projects/volkihar-knight/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://nathanham16.github.io/portfolio-nathan//projects/slice/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
