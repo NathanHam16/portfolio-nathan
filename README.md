@@ -1,10 +1,10 @@
 # Nathan Wang Portfolio
 
-## 🚀 About Me
-Welcome to my portfolio! I'm Nathan, a full-stack developer with experience in web development and software engineering. This portfolio showcases some of my recent projects, including web applications, APIs, and more.
+Source code for my portfolio website.
 
-## 🛠 Technologies:
-LANGUAGES: C# | Python | Java | JavaScript | HTML/CSS | SQL | Matlab
+### Tech Stack
 
-TECHNOLOGIES: React | Git | .NET | MySQL | Spring Boot | jQuery | Node
+- Next.js
+- Tailwind CSS
+- Deployed with Vercel
 
