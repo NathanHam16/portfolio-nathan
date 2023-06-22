@@ -89,19 +89,8 @@ export default function Home() {
 					<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Technical Grad Classes:</h2>
 						<ul className="list-disc ml-8 marker:text-slate-500 lg:space-y-0.5">
-							<li>6.521 Advanced Algorithms</li>
-							<li>6.390 Computer Vision</li>
-						</ul>
-						<div className="h-4"></div>
-						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-							Technical Undergrad Classes:
-						</h2>
-						<ul className="list-disc ml-8 marker:text-slate-500 lg:space-y-0.5">
-							<li>18.600 Probability and Random Variables</li>
-							<li>18.650 Fundamentals of Statistics</li>
-							<li>6.390 Introduction to Machine Learning</li>
-							<li>6.190 Introduction to Low-level Programming in C and Assembly</li>
-							<li>6.191 Computation Structures</li>
+							<li>EGB103</li>
+							<li>EGB120 </li>
 						</ul>
 					</div>
 				</div>
