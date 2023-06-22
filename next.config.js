@@ -1,14 +1,5 @@
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/usaco-classes',
-        destination: 'https://classes.thecodingwizard.me/',
-        permanent: false,
-      },
-    ]
-  },
-  experimental: {
-    serverActions: true,
-  },
-}
+const nextConfig = {
+  output: 'export',
+};
+
+module.exports = nextConfig;
