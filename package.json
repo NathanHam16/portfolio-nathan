@@ -1,11 +1,11 @@
 {
+  "homepage": "https://nathanham16.github.io/portfolio-nathan/",
   "name": "personal-website",
   "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "deploy": "next export && touch out/.nojekyll && gh-pages -d out"
+    "start": "next start"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
@@ -32,6 +32,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^8.32.2",
-    "react-type-animation": "^3.1.0"
+    "react-type-animation": "^3.1.0",
+    "yarn": "^1.22.19"
   }
 }
