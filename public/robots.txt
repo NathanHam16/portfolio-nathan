@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /resume.pdf
-Disallow: /games
-Disallow: /l
-
-User-agent: *
-Allow: /

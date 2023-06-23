@@ -1,6 +1,7 @@
 'use client';
 import { SectionTitle } from 'components/SectionTitle';
 import { ProjectsList } from 'components/Index/ProjectsList';
+import Head from 'next/head';
 import {
 	containerClasses,
 	fancyLinkClasses,
@@ -13,6 +14,9 @@ import React, { useRef, useEffect } from 'react';
 export default function Home() {
 	return (
 		<div>
+			 <Head>
+				<meta property="og:image" content="/path/to/your/image.jpg" />
+			</Head>
 			<main className="bg-slate-950" style={{ backgroundImage: 'url(/background2.jpg)' }}>
 				<div className="min-h-screen flex flex-col justify-center relative">
 					<div className={`${containerClasses} z-10`}>
