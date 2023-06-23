@@ -59,7 +59,7 @@ export default function Home() {
 							exploration of emerging technologies, I aspire to develop innovative software that resonates with people and enriches their lives.
 						</p>
 						<p>
-							Outside of programmng, I enjoy reading and exercising. Recently, I have been using Python, Javascript, & Java. 
+							I primarily use Python, Javascript, & Java. Outside of programmng, I enjoy reading and exercising. My favourite authors include James Clear, Dale Carnegie, and Alex Hormozi.
 						</p>
 					</div>
 				</div>
@@ -72,7 +72,7 @@ export default function Home() {
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Co-Founder, 99 Plus Education</h2>
 						<p>
 							To view my full software engineering work experience, please visit{' '}
-							<a href="https://www.linkedin.com/in/nathan-wang-b73966235/" className={fancyLinkClasses}>
+							<a href="https://www.linkedin.com/in/nathan-wang-b73966235/" className={fancyLinkClasses} target="_blank">
 								visit my Linkedin page
 							</a>
 							.
