@@ -1,12 +1,6 @@
 'use client';
-import Head from 'next/head';
-import Link from 'next/link';
 import { SectionTitle } from 'components/SectionTitle';
-import { LinkToSection } from 'components/Index/LinkToSection';
 import { ProjectsList } from 'components/Index/ProjectsList';
-import { Achievements } from 'components/Index/Achievements';
-import { CardGrid } from 'components/CardGrid/CardGrid';
-import { Card } from 'components/CardGrid/Card';
 import {
 	containerClasses,
 	fancyLinkClasses,
@@ -14,8 +8,7 @@ import {
 	sectionBodyClasses
 } from 'components/styles';
 import React, { useRef, useEffect } from 'react';
-import { TypeAnimation } from 'react-type-animation';
-import { ChevronRightIcon } from '@heroicons/react/solid';
+
 
 export default function Home() {
 	return (
@@ -62,45 +55,21 @@ export default function Home() {
 					</SectionTitle>
 					<div className={sectionBodyClasses}>
 						<p>
-							A
+							I'm a software engineering student striving to change the world one step at a time. Through continuous improvement of my programming skills and 
+							exploration of emerging technologies, I aspire to develop innovative software that resonates with people and enriches their lives.
 						</p>
 						<p>
-							B
+							Outside of programmng, I enjoy reading and exercising. Recently, I have been using Python, Javascript, & Java. 
 						</p>
-						<p>
-							C
-						</p>
-						<p>
-							D
-						</p>
-					</div>
-				</div>
-
-				<div className={containerClasses} id="school">
-					<SectionTitle big accentText="02">
-						School
-					</SectionTitle>
-					<div className={sectionBodyClasses}>
-						<p>
-							I am currently studying software engineering at Queensland University of Technology.
-						</p>
-					</div>
-					<div className="h-8 lg:h-12"></div>
-					<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
-						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Technical Grad Classes:</h2>
-						<ul className="list-disc ml-8 marker:text-slate-500 lg:space-y-0.5">
-							<li>EGB103</li>
-							<li>EGB120 </li>
-						</ul>
 					</div>
 				</div>
 
 				<div className={containerClasses} id="experience">
-					<SectionTitle big accentText="03">
+					<SectionTitle big accentText="02">
 						Work Experience
 					</SectionTitle>
 					<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
-						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Software Engineering:</h2>
+						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Co-Founder, 99 Plus Education</h2>
 						<p>
 							To view my full software engineering work experience, please visit{' '}
 							<a href="https://www.linkedin.com/in/nathan-wang-b73966235/" className={fancyLinkClasses}>
@@ -108,24 +77,57 @@ export default function Home() {
 							</a>
 							.
 						</p>
+
+						<div className="h-8 lg:h-12"></div>
+
+						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Sessional Academic, Queensland University of Technology</h2>
+						<p>
+							I tutor Python (EGB103) at the Queensland University of Technology. EGB103 covers Python fundamentals and data 
+							processing and visualisation with pandas.
+						</p>
+
+						<div className="h-8 lg:h-12"></div>
+
+						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Frontend Developer, Code Network</h2>
+						<p>
+							Collaborated in a team of 5 to develop and deploy Code Network website using React, Vite and Netlify.
+							Continuous Integration/Deployment pipeline, with pull requests, code reviews, and Github Actions testing.
+						</p>
 					</div>
 				</div>
 
 				<div className={containerClasses} id="projects">
-					<SectionTitle big accentText="04">
+					<SectionTitle big accentText="03">
 						Projects
 					</SectionTitle>
 					<div className="h-8 lg:h-12"></div>
 					<ProjectsList />
 				</div>
 
+				<div className={containerClasses} id="contact">
+					<SectionTitle big accentText="04">
+						Contact
+					</SectionTitle>
+					<div className={sectionBodyClasses}>
+						<p>
+							Get in touch. My inbox is always open, whether 
+							you have a question or just want to say hi, I’ll try my best to get back to you!
+						</p>
+
+						<div className="h-1 lg:h-1"></div>
+
+						<a className={fancyLinkClasses} href="mailto:nathan123wang@gmail.com" target="_blank">
+							Say hello here!
+						</a>{' '}
+					</div>
+				</div>
+
 				<div className="h-8 md:h-12 lg:h-16"></div>
 
 				<div className={`${containerClasses} pb-6 md:pb-12 lg:pb-24`}>
 					<div className="font-mono text-slate-400 text-xs md:text-sm lg:text-base">
-						Copyright {new Date().getFullYear()} Nathan Wang.
 						<br />
-						This site is built with NextJs and TailWind Css. View the source code on{' '}
+						This site is built with NextJs and TailWind Css by Nathan Wang. View the source code on{' '}
 						<a
 							className={linkClasses}
 							href="https://github.com/NathanHam16/portfolio-nathan"
