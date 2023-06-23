@@ -28,7 +28,7 @@ export default function Home() {
 						</SectionTitle>
 						<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
 							<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-								Co-Founder | Software Developer | Sessional Academic
+								Co-Founder, Software Developer, Sessional Academic
 							</h2>
 						</div>
 						<div className="h-6 md:h-8 xl:h-16"></div>
@@ -82,7 +82,7 @@ export default function Home() {
 					</SectionTitle>
 					<div className={sectionBodyClasses}>
 						<p>
-							Studying software engineering at QUT.
+							I am currently studying software engineering at Queensland University of Technology.
 						</p>
 					</div>
 					<div className="h-8 lg:h-12"></div>
