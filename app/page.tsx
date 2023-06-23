@@ -115,9 +115,6 @@ export default function Home() {
 					<SectionTitle big accentText="04">
 						Projects
 					</SectionTitle>
-					<div className={sectionBodyClasses}>
-						<p>I'm always working on something new. Below are a few of my favorite projects!</p>
-					</div>
 					<div className="h-8 lg:h-12"></div>
 					<ProjectsList />
 				</div>
