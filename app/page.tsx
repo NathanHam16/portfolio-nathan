@@ -15,7 +15,22 @@ export default function Home() {
 	return (
 		<div>
 			 <Head>
-				<meta property="og:image" content="og/preview.png" />
+				<title>Nathan Wang Developer Portfolio</title>
+				<meta name="title" content="Nathan Wang Developer Portfolio" />
+				<meta name="description" content="I'm a software engineering student striving to change the world one step at a time." />
+
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://metatags.io" />
+				<meta property="og:title" content="Nathan Wang Developer Portfolio" />
+				<meta property="og:description" content="I'm a software engineering student striving to change the world one step at a time." />
+				<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content="https://metatags.io" />
+				<meta property="twitter:title" content="Nathan Wang Developer Portfolio" />
+				<meta property="twitter:description" content="I'm a software engineering student striving to change the world one step at a time." />
+				<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
 			</Head>
 			<main className="bg-slate-950" style={{ backgroundImage: 'url(/background2.jpg)' }}>
 				<div className="min-h-screen flex flex-col justify-center relative">

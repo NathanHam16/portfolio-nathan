@@ -15,6 +15,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 					href="https://fonts.googleapis.com/css2?family=JetBrains%20Mono:wght@100..800&display=block"
 					rel="stylesheet"
 				/>
+				<title>Nathan Wang Developer Portfolio</title>
+				<meta name="title" content="Nathan Wang Developer Portfolio" />
+				<meta name="description" content="I'm a software engineering student striving to change the world one step at a time." />
+
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="og/preview.png" />
+				<meta property="og:title" content="Nathan Wang Developer Portfolio" />
+				<meta property="og:description" content="I'm a software engineering student striving to change the world one step at a time." />
+				<meta property="og:image" content="og/preview.png" />
+
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content="og/preview.png" />
+				<meta property="twitter:title" content="Nathan Wang Developer Portfolio" />
+				<meta property="twitter:description" content="I'm a software engineering student striving to change the world one step at a time." />
+				<meta property="twitter:image" content="og/preview.png" />
 			</head>
 			<body>{children}</body>
 		</html>
