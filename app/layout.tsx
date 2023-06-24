@@ -1,8 +1,9 @@
 import '../styles/globals.css';
 
 export const metadata = {
-	title: 'Nathan Wang Developer Portfolio'
-};
+	title: 'Nathan Wang Developer Portfolio',
+	previewImage: 'og/preview.png',
+  };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (

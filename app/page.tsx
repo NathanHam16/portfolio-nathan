@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<div>
 			 <Head>
-				<meta property="og:image" content="/path/to/your/image.jpg" />
+				<meta property="og:image" content="og/preview.png" />
 			</Head>
 			<main className="bg-slate-950" style={{ backgroundImage: 'url(/background2.jpg)' }}>
 				<div className="min-h-screen flex flex-col justify-center relative">
