@@ -16,13 +16,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<meta name="title" content="Nathan Wang Developer Portfolio" />
 				<meta name="description" content="I'm a software engineering student striving to change the world one step at a time." />
 
-
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://example.com" />
 				<meta property="og:title" content="Nathan Wang Developer Portfolio" />
 				<meta property="og:description" content="I'm a software engineering student striving to change the world one step at a time." />
 				<meta property="og:image" content="og/preview.png" />
-
 
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://example.com" />
