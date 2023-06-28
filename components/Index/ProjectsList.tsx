@@ -1,6 +1,7 @@
 import { Card } from 'components/CardGrid/Card';
 import { CardGrid } from 'components/CardGrid/CardGrid';
 
+// List of projects that I have completed
 export const ProjectsList = () => (
 	<CardGrid>
 		<Card
