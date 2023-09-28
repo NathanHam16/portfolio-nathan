@@ -1,0 +1,17 @@
+{
+    "username": "JohnDoe",
+    "user_picture": "https://example.com/user_picture.jpg",
+    "employee_id": "EMP12345",
+    "achievements_earned_easy": 5,
+    "achievements_earned_medium": 3,
+    "achievements_earned_hard": 1,
+    "tasks_completed": {
+      "Monday": 8,
+      "Tuesday": 6,
+      "Wednesday": 4,
+      "Thursday": 7,
+      "Friday": 5
+    },
+    "coins_stored": 100,
+    "rewards_deemed": ["reward_id_1", "reward_id_2", "reward_id_3"]
+  }

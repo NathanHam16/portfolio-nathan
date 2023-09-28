@@ -1,0 +1,29 @@
+{
+    "rewards": [
+      {
+        "imagePath": "./images/free_lunch.jpg",
+        "rewardName": "Free Lunch",
+        "coinsRequired": 100,
+        "rewardDescription": "Enjoy a delicious free lunch at the workplace cafeteria."
+      },
+      {
+        "imagePath": "./images/day_off.jpg",
+        "rewardName": "1 Day Off",
+        "coinsRequired": 1000,
+        "rewardDescription": "Take a well-deserved break with an extra day off from work."
+      },
+      {
+        "imagePath": "./images/plushies.jpg",
+        "rewardName": "Plushies",
+        "coinsRequired": 50,
+        "rewardDescription": "Choose from a variety of adorable plush toys to brighten up your workspace."
+      },
+      {
+        "imagePath": "./images/tanda.jpg",
+        "rewardName": "Tanda Merch",
+        "coinsRequired": 75,
+        "rewardDescription": "Show off your Tanda pride with branded merchandise, including t-shirts, mugs, and more."
+      }
+    ]
+  }
+  

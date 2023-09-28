@@ -1,0 +1,89 @@
+.dashboard-container {
+  padding-top: 10px;
+    display: flex;
+    height: 100vh;
+  }
+
+  .container {
+    padding: 80px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  .button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+  }
+  .sidebar-button {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+
+  .reward-card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 30px;
+    margin-bottom: 16px;
+  }
+  
+  .reward-image {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .reward-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .reward-coins {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .reward-description {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .buy-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .buy-button:active {
+    background-color: #2b55c6;
+  }
+  
+  
