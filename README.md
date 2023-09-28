@@ -7,5 +7,6 @@ Source code for my portfolio website. Inspired by Brittany Chiang
 - React
 - Next.js
 - Tailwind CSS
-- Deployed with Vercel
+- Deployed with Vercel\
+
 
